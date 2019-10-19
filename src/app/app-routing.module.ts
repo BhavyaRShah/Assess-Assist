@@ -8,6 +8,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { ProfessorLoginComponent } from './professor-login/professor-login.component';
 import { StudentLoginComponent } from './student-login/student-login.component';
 import { AdminHomeComponent } from './admin-home/admin-home.component';
+import { AdminFacultyComponent } from './admin-faculty/admin-faculty.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'professorLogin',component:ProfessorLoginComponent},
   {path:'studentLogin',component:StudentLoginComponent},
   {path:'adminHome',component:AdminHomeComponent},
+  {path:'adminFaculty',component:AdminFacultyComponent},
   {path:'**',component:ErrorComponent}
 ];
 
