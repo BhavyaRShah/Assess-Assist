@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -9,6 +9,7 @@ import { ProfessorLoginComponent } from './professor-login/professor-login.compo
 import { StudentLoginComponent } from './student-login/student-login.component';
 import { AdminHomeComponent } from './admin-home/admin-home.component';
 import { AdminFacultyComponent } from './admin-faculty/admin-faculty.component';
+import { AdminStudentComponent } from './admin-student/admin-student.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'studentLogin',component:StudentLoginComponent},
   {path:'adminHome',component:AdminHomeComponent},
   {path:'adminFaculty',component:AdminFacultyComponent},
+  {path:'adminStudent',component:AdminStudentComponent},
   {path:'**',component:ErrorComponent}
 ];
 
