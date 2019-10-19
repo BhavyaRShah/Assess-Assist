@@ -1,0 +1,12 @@
+.header{
+    background-color: rgb(139, 162, 180);
+    position: relative;
+    /* margin: 0; */
+    /* float: left; */
+    width: 100%;
+    /* margin-top: 10px; */
+}
+img{
+    width: 30%;
+    float: right;
+}
